@@ -96,5 +96,14 @@ export const events: Event[] = [
     type: 'other',
     artist: 'Jorge Porcel Jr',
     link: 'https://www.youtube.com/watch?v=sjUqIIowF_I'
+  },{
+    id: '11',
+    title: 'Clasica y moderna',
+    description: 'El taxi me costó diez pesos',
+    date: '2006-01',
+    amount: 10,
+    type: 'song',
+    artist: 'Las Pastillas del Abuelo',
+    link: 'https://www.youtube.com/watch?v=GyJv_42M_Y8'
   }
 ];
