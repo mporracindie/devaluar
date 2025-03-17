@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { CircleDollarSign, ArrowUpDown, Calendar, DollarSign, Twitter } from 'lucide-react';
 import { EventCard } from './components/EventCard';
+import { Calculator } from './components/Calculator';
 import { events } from './data/events';
 import { fetchInflationData, calculateCurrentValue } from './utils/inflation';
 import type { InflationData, Event } from './types';
@@ -78,6 +79,15 @@ function App() {
       </header>
 
       <main className="container mx-auto px-4 py-8">
+        {/* Calculator Section */}
+        <section className="mb-8">
+          <p className="text-gray-600 mb-4">
+            Calculá el valor actualizado de cualquier monto en pesos argentinos. Ingresá un monto, una fecha inicial y una fecha final para ver cómo la inflación afectó su valor.
+          </p>
+          <Calculator inflationData={inflationData} />
+        </section>
+
+        {/* Events Section */}
         <div className="mb-6 flex flex-col sm:flex-row justify-between items-center bg-white p-4 rounded-lg shadow-sm">
           <h2 className="text-xl font-semibold text-gray-800 mb-3 sm:mb-0">
             Eventos históricos
