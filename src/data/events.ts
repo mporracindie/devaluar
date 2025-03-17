@@ -59,5 +59,14 @@ export const events: Event[] = [
     type: 'news',
     source: '',
     link: 'https://www.youtube.com/watch?v=Saa86WoG1ng'
+  },{
+    id: '7',
+    title: 'Diez Mil',
+    description: 'Veinte millones de',
+    date: '1992-01',
+    amount: 20000000,
+    type: 'song',
+    source: 'Bersuit Vergarabat',
+    link: 'https://www.youtube.com/watch?v=g6rooXs5wZY'
   }
 ];
