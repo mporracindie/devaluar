@@ -50,5 +50,14 @@ export const events: Event[] = [
     type: 'other',
     source: 'Hernan Casceari',
     link: 'https://www.youtube.com/watch?v=CVJtrht7kNA'
+  },{
+    id: '6',
+    title: 'alto guiso',
+    description: 'Con 15 pesos, con 15 pesos, me hago alto guiso',
+    date: '2011-08',
+    amount: 15,
+    type: 'news',
+    source: '',
+    link: 'https://www.youtube.com/watch?v=CVJtrht7kNA'
   }
 ];
