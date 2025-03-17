@@ -68,5 +68,24 @@ export const events: Event[] = [
     type: 'song',
     source: 'Bersuit Vergarabat',
     link: 'https://www.youtube.com/watch?v=g6rooXs5wZY'
+  },
+  {
+    id: '8',
+    title: 'MARTEEEN',
+    description: '776.420 Pesos la recaudacion para...',
+    date: '1999-05',
+    amount: 776420,
+    type: 'other',
+    source: 'Martín Palermo',
+    link: 'https://www.youtube.com/watch?v=tQOzkW5Vi-o'
+  },{
+    id: '9',
+    title: 'Señor kioskero',
+    description: 'Disculpe señora tiene cambio de 100',
+    date: '2005-10',
+    amount: 5,
+    type: 'song',
+    artist: 'Intoxicados',
+    link: 'https://www.youtube.com/watch?v=pvcBnbo9D8o'
   }
 ];
