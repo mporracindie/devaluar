@@ -87,5 +87,14 @@ export const events: Event[] = [
     type: 'song',
     artist: 'Intoxicados',
     link: 'https://www.youtube.com/watch?v=pvcBnbo9D8o'
+  },{
+    id: '10',
+    title: 'Jorge Porcel Jr',
+    description: 'Por menos de 15 lucas no me muevo',
+    date: '2012-08',
+    amount: 15000,
+    type: 'other',
+    artist: 'Jorge Porcel Jr',
+    link: 'https://www.youtube.com/watch?v=sjUqIIowF_I'
   }
 ];

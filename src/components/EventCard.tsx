@@ -1,5 +1,5 @@
 import React from 'react';
-import { ExternalLink, Music, Newspaper, Film, Box, Calendar } from 'lucide-react';
+import { ExternalLink, Music, Newspaper, Film, Box, Calendar, Trophy } from 'lucide-react';
 import { Event } from '../types';
 
 const typeIcons = {
@@ -7,6 +7,7 @@ const typeIcons = {
   movie: Film,
   news: Newspaper,
   other: Box,
+  furbol: Trophy
 };
 
 interface EventCardProps {
