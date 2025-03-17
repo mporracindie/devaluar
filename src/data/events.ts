@@ -58,6 +58,6 @@ export const events: Event[] = [
     amount: 15,
     type: 'news',
     source: '',
-    link: 'https://www.youtube.com/watch?v=CVJtrht7kNA'
+    link: 'https://www.youtube.com/watch?v=Saa86WoG1ng'
   }
 ];
