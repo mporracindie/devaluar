@@ -83,7 +83,7 @@ export const events: Event[] = [
     title: 'Señor kioskero',
     description: 'Disculpe señora tiene cambio de 100',
     date: '2005-10',
-    amount: 5,
+    amount: 100,
     type: 'song',
     artist: 'Intoxicados',
     link: 'https://www.youtube.com/watch?v=pvcBnbo9D8o'
